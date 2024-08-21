@@ -1,0 +1,13 @@
+apiVersion: v2
+name: onecx-k8s-crds
+version: 0.0.0
+appVersion: 0.0.0
+description: onecx k8s custom resources definition
+keywords:
+  - crds
+  - k8s
+sources:
+  - https://github.com/onecx/onecx-k8s-crds
+maintainers:
+  - name: Tkit Developer
+    email: tkit_dev@1000kit.org
