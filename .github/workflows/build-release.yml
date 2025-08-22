@@ -15,7 +15,7 @@ jobs:
     needs: [helm]
     secrets: inherit
     with:
-      targetRepository:onecx/onecx-k8s
+      targetRepository: onecx/onecx-k8s
   changelog:
     uses: onecx/ci-common/.github/workflows/generate-changelog.yml@v1
     needs: helm
